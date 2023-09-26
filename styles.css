@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(59, 189, 250);
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    background: white;
+    width: 25rem;
+    padding: 1.5rem;
+    height: 60vh;
+    margin-top: 2rem;
+    border-radius: 1.5rem;
+}
+
+.input-box {
+    width: 100%;
+    padding: 0.3rem 0.1rem;
+}
+
+#score {
+    display: none;
+}

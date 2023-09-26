@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="column">
+        <h1>Tip calculator</h1>
+        <form>
+            <label for="bill" class="bills">Bill</label>
+            <input type="number" class="input-box" id="bill" placeholder="Enter amount">
+            </form> <br>
+
+            <form>
+            <label for="">Tip %:</label>
+            <select class="input-box" id="tip">
+                    <option value="0">Click to select</option>
+                    <option value="30">30% - Fantastic</option>
+                    <option value="20">20% - Very Good</option>
+                    <option value="15"> 15% - Good</option>
+                    <option value="10">10% - Fair</option>
+                    <option value="5"> 5% - very bad</option>
+            </select>
+        </form> <br>
+
+        <form >
+            <label for="people">People</label>
+            <input type="number" class="input-box" id="numPeople" placeholder="Bill sharing">
+        </form> <br>
+
+        <button type="button" onclick="calcTip()">Calculate</button> <br> <br>
+
+        <div class="" id="score">
+            <p class="zero">0 each</p>
+        </div>
+
+
+    </div>
+    
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
